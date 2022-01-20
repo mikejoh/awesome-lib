@@ -22,6 +22,11 @@ MIT
 
 package awesome
 
+import (
+	log "github.com/sirupsen/logrus"
+)
+
 func Awesome() string {
+	log.Info("awesome!")
 	return "awesome!"
 }
